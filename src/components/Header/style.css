@@ -1,5 +1,20 @@
-.header-container{
+/* .header-container{
      display: flex;
      align-items: center;
      justify-content: center;
+} */
+.header-wrapper{
+    background: var(--black);
+    color: white;
+}
+.header-container{
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+    color: var(--secondary);
+}
+.header-menu{
+    gap: 2rem;
+}
+.header-menu:hover{
+    cursor: pointer;
 }

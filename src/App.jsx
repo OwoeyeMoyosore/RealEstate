@@ -1,11 +1,12 @@
 import Header from "./components/Header/main";
+import HeroSection from "./components/HeroSection/main";
 
 function App() {
   return (
+    <div className="App">
     <Header />
-    // <div className="App">
-        
-    // </div>
+    <HeroSection />
+    </div>
  
   );
 }

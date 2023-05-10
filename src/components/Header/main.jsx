@@ -5,14 +5,14 @@ import './style.css'
 const Header = () => {
   return (
     <section className="header-wrapper">
-        <div className="header-container flexCenter paddings">
+        <div className="header-container flexCenter paddings innerWidth">
             <img src="./logo.png" alt="" width={100}/>
-            <div className="header-menu">
+            <div className="flexCenter header-menu">
                  <a href="">Residencies</a>
                  <a href="">Our Value</a>
                  <a href="">Contact  Us</a>
                  <a href="">Get Started</a>
-                 <button className=''>
+                 <button className='button'>
                     <a href="">Contact</a>
                  </button>
             </div>
