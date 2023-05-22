@@ -13,7 +13,7 @@ const Header = () => {
                  <a href="">Contact  Us</a>
                  <a href="">Get Started</a>
                  <button className='button'>
-                    <a href="">Contact</a>
+                    <a href="" style={{background : "none"}}>Contact</a>
                  </button>
             </div>
         </div>

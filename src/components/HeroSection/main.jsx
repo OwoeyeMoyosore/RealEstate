@@ -13,12 +13,12 @@ const HeroSection = () => {
                 </div>
 
                 <div className="flexColStart hero-description">
-                    <span>Find a variety of properties that suit you very easily</span>
-                    <span>Forget all difficulties in finding a residence for you</span>
+                    <span className="secondaryText">Find a variety of properties that suit you very easily</span>
+                    <span className="secondaryText">Forget all difficulties in finding a residence for you</span>
                 </div>
 
                 <div className="search flexCenter">
-                    <HiLocationMarker color="var(--blue)" size={25}/>
+                    <HiLocationMarker color="var(--blue)" size={25} style={{background : "none"}}/>
                     <input type="text" name="" id="" />
                     <button className="button">Search</button>
                 </div>
@@ -29,7 +29,7 @@ const HeroSection = () => {
                             <CountUp start={3800} end={4000} duration={4}/>
                             <span>+</span>
                         </span>
-                        <span>Premium Products</span>
+                        <span className="secondaryText">Premium Products</span>
                     </div>
 
                     <div className="flexColStart stat">
@@ -37,7 +37,7 @@ const HeroSection = () => {
                             <CountUp start={1950} end={2000} duration={5}/>
                             <span>+</span>
                         </span>
-                        <span>Happy Customers</span>
+                        <span className="secondaryText">Happy Customers</span>
                     </div>
 
                     <div className="flexColStart stat">
@@ -45,7 +45,7 @@ const HeroSection = () => {
                             <CountUp  end={28}/>
                             <span>+</span>
                         </span>
-                        <span>Award Winning</span>
+                        <span className="secondaryText">Award Winning</span>
                     </div>
                 </div>
             </div>

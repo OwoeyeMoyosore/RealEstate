@@ -27,7 +27,7 @@
 .orange-circle{
     height: 4rem;
     width: 4rem;
-    background: var(--orange-gradient);
+    background: var(--orange-gradient)!important;
     border-radius: 50%;
     position: absolute;
     right: 28%;
@@ -48,6 +48,32 @@
     border: none;
     outline: none ;
 }
+
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* targeting the first child inside the stat class which is " 
+    <span>
+        <CountUp start={3800} end={4000} duration={4}/>
+        <span>+</span>
+    </span>" 
+*/
+.stat :nth-child(1) {
+    font-size: 2rem;
+    display: flex;
+    gap: 5px;
+}
+
+/* targeting the last child inside the first child of the stat class which is " 
+        "<span>+</span>"
+*/
+.stat :nth-child(1) :last-child{
+    color: orange;
+}
+
+
 
 
 
