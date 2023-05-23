@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection/main";
 import "../src/App.css"
 import Companies from "./components/Companies/main";
 import Residencies from "./components/Residencies/main";
+import Values from "./components/Values/main";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </div>
       <Companies />
       <Residencies />
+      <Values />
  
     </div>
  
